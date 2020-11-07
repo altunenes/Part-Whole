@@ -1,9 +1,9 @@
 # Part-Whole
 Swap facial landmarks for the part-whole task 
 
-Part-whole task is widely using among neuroscientist who studying face perception. It has been devolaped by  (Tanaka & Farah, 1993) https://doi.org/10.1080/14640749308401045.
+The part-whole task is widely used among neuroscientists who study face perception. It has been devolaped by  (Tanaka & Farah, 1993) https://doi.org/10.1080/14640749308401045.
 
-This script provides you a realistic results with seamlessClone function.
+This script provides you a realistic results with seamlessClone function. 
 
 
 
