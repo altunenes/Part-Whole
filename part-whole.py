@@ -36,11 +36,12 @@ for face in faces:
     landmarks = predictor(img_gaus, face)
     landmarks_points = []
 
-
-    # for n in range(0,81):   # for whole face proccessing including forehead area
-    #       x = landmarks.part(n).x
-    #       y = landmarks.part(n).y
-    #       landmarks_points.append((x, y))
+    #important section!!! You need to remove '#' for what you needed. For the best results, I highly recommend you to process your images one by one, don't mix all landmarks.
+    #when you remove # from face 1, you need to remove also face 2. (go to line 107). You can change these values for what you need in the light of the reference landmark points image.
+    for n in range(0,81):   # for whole face proccessing including forehead area
+           x = landmarks.part(n).x
+           y = landmarks.part(n).y
+           landmarks_points.append((x, y))
     #
     #
     #
@@ -108,10 +109,10 @@ faces2 = detector(img2_gray)
 for face in faces2:
     landmarks = predictor(img_gaus2, face)
     landmarks_points2 = []
-    # for n in range(0,81):   # for whole face proccessing including forehead area
-    #       x = landmarks.part(n).x
-    #       y = landmarks.part(n).y
-    #       landmarks_points2.append((x, y))
+    for n in range(0,81):   # for whole face proccessing including forehead area
+          x = landmarks.part(n).x
+          y = landmarks.part(n).y
+          landmarks_points2.append((x, y))
 
     # for n in range(18,26):  #eyebrowns
     #      x = landmarks.part(n).x
