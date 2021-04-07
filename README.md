@@ -12,14 +12,20 @@ Referance for the trained detector:
 https://github.com/codeniko/shape_predictor_81_face_landmarks
 
 
+
+
 # Example for facial parts:
+
+![New Microsoft PowerPoint Presentation](https://user-images.githubusercontent.com/54986652/113931612-5c890080-97fb-11eb-95c8-a93dadfd8357.jpg)
+
 
 ![TEST](https://user-images.githubusercontent.com/54986652/113931288-f69c7900-97fa-11eb-9fe3-d4fd5f10597d.jpg)
 
 
 # Example for whole face (including forehead+hair #0-81):
 
-![wholeface](https://user-images.githubusercontent.com/54986652/113931438-1fbd0980-97fb-11eb-8952-a14f6d4a1c44.jpg)
+![testttt](https://user-images.githubusercontent.com/54986652/113931830-9d811500-97fb-11eb-9e4a-851d22172b8f.jpg)
+
 
 
 Faces from:
