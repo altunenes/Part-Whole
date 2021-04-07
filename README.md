@@ -19,6 +19,7 @@ https://github.com/codeniko/shape_predictor_81_face_landmarks
 ![New Microsoft PowerPoint Presentation](https://user-images.githubusercontent.com/54986652/113931612-5c890080-97fb-11eb-95c8-a93dadfd8357.jpg)
 
 
+(the leftmost is nose+mouth)
 ![TEST](https://user-images.githubusercontent.com/54986652/113931288-f69c7900-97fa-11eb-9fe3-d4fd5f10597d.jpg)
 
 
