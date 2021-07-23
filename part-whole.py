@@ -29,7 +29,7 @@ img2_new_face = np.zeros((height, width, channels), np.uint8)
 
 
 
-
+indexes_triangles = []
 # Face 1
 faces = detector(img_gray)
 for face in faces:
@@ -82,7 +82,6 @@ for face in faces:
     triangles = subdiv.getTriangleList()
     triangles = np.array(triangles, dtype=np.int32)
 
-    indexes_triangles = []
     for t in triangles:
         pt1 = (t[0], t[1])
         pt2 = (t[2], t[3])
