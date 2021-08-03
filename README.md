@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/emportent/part-whole/badge)](https://www.codefactor.io/repository/github/emportent/part-whole)
+
 # Part-Whole
 Swap facial landmarks for the part-whole task 
 
