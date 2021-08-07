@@ -3,17 +3,18 @@
 # Part-Whole
 Swap facial landmarks for the part-whole task 
 
-The part-whole task is widely used among neuroscientists who study face perception. It has been devolaped by  (Tanaka & Farah, 1993) https://doi.org/10.1080/14640749308401045.
+The part-whole task is a well-known task among face researchers especially studying face processing. It has been developed by  (Tanaka & Farah, 1993) https://doi.org/10.1080/14640749308401045.
 
 This script provides you a realistic results with seamlessClone function. 
 
-
+In order to get clear results, use high-quality images as much as possible. But if you have low-quality faces you probably need to use some extra filter methods to edges (Gaussian is working well in most scenarios).
 
 
 Referance for the trained detector:
 https://github.com/codeniko/shape_predictor_81_face_landmarks
 
 
+![mouth](https://user-images.githubusercontent.com/54986652/128609486-a8ea6120-d3c1-4679-ba93-49c5042320ef.png)
 
 
 # Example for facial parts:
