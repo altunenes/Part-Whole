@@ -14,7 +14,6 @@ Referance for the trained detector:
 https://github.com/codeniko/shape_predictor_81_face_landmarks
 
 
-![mouth](https://user-images.githubusercontent.com/54986652/128609486-a8ea6120-d3c1-4679-ba93-49c5042320ef.png)
 
 
 # Example for facial parts:
