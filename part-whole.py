@@ -4,7 +4,7 @@ import dlib
 import time
 
 
-def extract_index_nparray(nparray):
+def index_np(nparray):
     index = None
     for num in nparray[0]:
         index = num
@@ -89,13 +89,13 @@ for face in faces:
 
 
         index_pt1 = np.where((points == pt1).all(axis=1))
-        index_pt1 = extract_index_nparray(index_pt1)
+        index_pt1 = index_np(index_pt1)
 
         index_pt2 = np.where((points == pt2).all(axis=1))
-        index_pt2 = extract_index_nparray(index_pt2)
+        index_pt2 = index_np(index_pt2)
 
         index_pt3 = np.where((points == pt3).all(axis=1))
-        index_pt3 = extract_index_nparray(index_pt3)
+        index_pt3 = index_np(index_pt3)
 
         if index_pt1 is not None and index_pt2 is not None and index_pt3 is not None:
             triangle = [index_pt1, index_pt2, index_pt3]
