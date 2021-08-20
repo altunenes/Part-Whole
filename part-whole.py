@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import dlib
-import time
 
 
 def index_np(nparray):
