@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+authors:
+- family-names: "Altun"
+  given-names: "Enes"
+  orcid: "https://orcid.org/0000-0002-6478-6909"
+title: "Part-Whole"
+version: 1.0.0
+date-released: 2021-08-24
+url: "https://github.com/emportent/Part-Whole"
