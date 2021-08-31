@@ -1,4 +1,4 @@
-cv2
+opencv
 numpy
 dlib
 streamlit
