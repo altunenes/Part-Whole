@@ -15,7 +15,7 @@ mesh=mp_face.FaceMesh()
 
 #OPENCV image bgr default mediapipe rgb
 
-img=cv2.imread("train/testface.jpg")
+img=cv2.imread("train/testface.jpg")             ##########just change these 2 lines and read your images and run the script. If you don't want the  blurred(gauss) output go the line 180
 img2 = cv2.imread("train/otherface.jpg")
 
 if img.shape!=img2.shape:
@@ -179,9 +179,11 @@ center_face2 = (int((x + x + w) / 2), int((y + y + h) / 2))
 seamless = cv2.seamlessClone(result, img2, img2_head_mask, center_face2, cv2.NORMAL_CLONE)
 gauss=cv2.GaussianBlur(seamless,(5,5),5)
 cv2.namedWindow("window", cv2.WND_PROP_FULLSCREEN)
-cv2.imwrite("train/result.jpg",gauss)
-
+cv2.imwrite("result.jpg",gauss)
+cv2.imwrite("result.jpg",seamless)
 cv2.imshow("seamlessclone", gauss)
+cv2.imshow("seamlessclone", seamless)
+
 cv2.waitKey(0)
 
 
